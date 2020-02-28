@@ -1,0 +1,151 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+header{
+	width:100%;
+	height:1in;
+	background-color:#f6f9f9;
+  	position: sticky;
+  	top: 0;
+  	margin: 0 auto;
+        Z-index:9; 
+}
+.menu img{
+	float:left;
+	font-family: relative;
+	margin: 29px;
+	height: auto;
+	margin-left:15%;
+}
+.nav-bar{
+	float:right ;
+	margin-right: 280px;
+	margin-top: 15px;
+	list-style:none;
+	
+}
+.nav-bar ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 20px;
+}
+.nav-bar ul li a{
+	text-decoration:none;
+	color:#444f64;
+	letter-spacing:1px;
+	font-size:14pt;
+}
+.nav-bar ul li a:hover {
+
+	transition: 0.2s;
+	color:#fff;
+	background-color:#15a4fa;
+	border-radius: 4px;
+	padding:3px;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.text{
+	position:relative;
+	text-align: center;
+	margin-top: -555px;
+	margin-right: 32%;
+	float:right;
+	color: #fff;
+}
+.text h1{
+	font-size: 120px;
+	margin-bottom: 30px;
+}
+.border{
+	position: absolute;
+	width: 600px;
+	height: 3px;
+	background-color:  #15a4fa;
+	margin-left: -19.9%;
+}
+.text p{
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+button{
+	padding:7px 20px;
+	border-color:#15a4fa; 
+	background-color: transparent;
+	color: #fff;
+}
+button:hover{
+	transition: 0.2s;
+	color:#fff;
+	background-color:#15a4fa;
+}
+.text .fas{
+	color: #fff;
+	 font-size: 25px;
+	 padding-top: 150px;
+        animation-name: myanimation;
+        animation-duration: 2s infinite;
+}
+ 
+@keyframes myanimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.about{
+	background-color: #f6f9f9;
+	padding: 100px;
+}
+.about h1{
+	font-size:40px;
+	color: #3a465b;
+	text-align: center;
+	padding-bottom:30px;
+}
+.about p{
+	font-size: 20px;
+	color: #bebfbf;
+	text-align: center;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+.bx{
+	display: flex;
+	text-align: center;
+	text-decoration:none;
+	justify-content: space-between;
+	padding:40px 100px 40px 100px ;
+	height: 3in;
+	background-color: #ffffff;
+}
+.icon{
+	text-align: center;
+	margin: 25px;
+}
+.icon i {
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background-color: #15a4fa;
+	padding: 10px;
+	color: #fff;
+}
+.icon:hover{
+	transition: 0.2s;
+	color:#fff;
+	background-color:#5fc3ff;
+	border-radius: 0px 20px 0px 20px;
+}
+.icon i:hover{
+	transition: 0.2s;
+	color:#fff;
+	background-color:#5fc3ff;
+}
